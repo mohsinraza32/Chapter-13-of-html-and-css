@@ -1,0 +1,61 @@
+.para{
+   background-color: red;
+   width: 900px;
+   height: 300px;
+
+   min-width: 200px;
+   max-width: 500px;
+   min-height: 100px;
+   max-height: 100px;
+
+}
+
+.overflow{
+    background-color: blueviolet;
+    height: 200px;
+    max-width: 300px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    border: 1px solid red;
+    border-width: 2px 4px 6px 7px;
+}
+
+.border{
+    border: 2px solid red;
+    border: 2px dotted red;
+    border: 2px double  red;
+    border: 2px groove red;
+    border: 2px ridge  red;
+    border: 2px inset red;
+    border: 2px outset red;
+    border: hidden;
+    border: none;
+
+}
+
+.center{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
+}
+li.coming-soon{
+    /* display: none; */
+    visibility: hidden;
+    visibility: visible;
+}
+
+.shadow{
+   border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    box-shadow: 2px 2px 3px red;
+}
